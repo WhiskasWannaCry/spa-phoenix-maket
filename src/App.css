@@ -1,0 +1,8 @@
+#root,html,body,.container {
+  width: 1920px;
+  height: 3146px;
+}
+
+.container {
+  background: #E5E5E5;
+}
