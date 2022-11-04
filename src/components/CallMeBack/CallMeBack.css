@@ -1,17 +1,19 @@
 .callmeback_container {
-  width: 1201px;
-  height: 401px;
-  left: 360px;
-  top: 1379px;
-  margin-top: 146px;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  width: 1201px;
+  height: 401px;
+  margin-top: 146px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 63px;
 }
 
 .callmeback_ship {
+  display: flex;
+  height: 401px;
   border-radius: 10px;
   width: 474px;
 }
@@ -20,8 +22,8 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 1454px;
-  left: 450px;
+  top: 64px;
+  left: 81px;
 }
 
 .callmeback_primary_text {
@@ -33,9 +35,6 @@
   font-size: 36px;
   line-height: 120%;
   color: #181414;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .callmeback_secondary_text {
@@ -50,15 +49,12 @@
   align-items: center;
   margin-top: 20px;
   color: #181414;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .callmeback_inputs_and_button_container {
   position: absolute;
-  top: 1674px;
-  left: 450px;
+  top: 289px;
+  left: 81px;
   display: flex;
   width: 900px;
   justify-content: space-around;

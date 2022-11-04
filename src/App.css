@@ -1,8 +1,11 @@
 #root,html,body,.container {
   width: 1920px;
-  height: 3146px;
+  min-height: 2700px;
 }
 
 .container {
   background: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
 }

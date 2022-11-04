@@ -1,10 +1,10 @@
 .footer_container {
+  display: flex;
   background: #404040;
   width: 1200px;
   height: 226px;
   padding-left: 360px;
   padding-right: 360px;
-  display: flex;
 }
 
 .logo_and_rights {
