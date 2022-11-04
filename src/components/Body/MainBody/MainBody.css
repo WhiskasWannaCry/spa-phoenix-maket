@@ -1,6 +1,9 @@
 .main_body_container {
   margin-left: 360px;
   margin-right: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main_image {
@@ -64,7 +67,7 @@ margin-top: 15px;
 height: 53px;
 left: 873px;
 top: 473px;
-
+cursor: pointer;
 background: #FFFFFF;
 border-radius: 10px;
 font-family: 'Poppins';
@@ -74,6 +77,14 @@ font-size: 14px;
 line-height: 120%;
 border: none;
 margin-top: 45px;
+}
+
+.body_image_callback_btn:hover {
+  background: #e6e6e6;
+}
+
+.body_image_callback_btn:active {
+  background: #a5a5a5;
 }
 
 h2 {
@@ -110,6 +121,9 @@ color: #181414;
   height: 442px;
   display: flex;
   flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .product_image {
@@ -120,18 +134,13 @@ color: #181414;
 
 .product_name {
   margin-top: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 120%;
-/* identical to box height, or 22px */
-
-display: flex;
-align-items: center;
-
-color: #181414;
-
+  width: 85%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #181414;
 }
 
 .product_description {
@@ -149,10 +158,211 @@ color: #181414;
 }
 
 .product_show_more_btn {
+  cursor: pointer;
+  margin-top: 30px;
+  width: 237px;
+  height: 53px;
+  background: #C60101;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #F9F9F9;
+  margin-bottom: 30px;
+}
 
+.product_show_more_btn:hover {
+  background: #a70000;
+}
+
+.product_show_more_btn:active {
+  background: #740000;
 }
 
 .product_show_more_btn,.product_description {
   padding-left: 21px;
   padding-right: 20px;
+}
+
+.why_we_are_container {
+  width: 1201px;
+height: 375px;
+left: 360px;
+top: 1840px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+margin-top: 60px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.wwa_primary_text {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+width: 95%;
+color: #181414;
+margin-left: 43px;
+margin-top: 45px;
+}
+
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: 230px;
+  margin-top: 38px;
+  justify-content: center;
+}
+
+.reason {
+  display: flex;
+  padding: 10px;
+}
+
+.reason_img {
+  display: flex;
+  width: 70px;
+height: 70px;
+left: 403px;
+top: 1966px;
+
+/* ваы */
+
+background: linear-gradient(90deg, #C90000 0%, #620000 100.03%);
+border-radius: 500px;
+}
+
+.reason_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.reason_primary_text {
+  width:221px;
+  height: 19px;
+  left: 493px;
+  top: 1965px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #181414;
+}
+
+.reason_secondary_text {
+  margin-top: 5px;
+  width: 253px;
+  height: 48px;
+  left: 493px;
+  top: 1989px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 120%;
+  /* or 16px */
+  
+  
+  color: #181414;
+}
+
+.about_and_delivery_container {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.img_and_primary_text {
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 60px;
+  display: flex;
+}
+
+.about_us_and_delivery_primary_text {
+  margin-left: 22px;
+  width: 153px;
+  height: 43px;
+  left: 1135px;
+  top: 2353px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #181414;
+}
+
+.about_us,.delivery {
+  width: 585px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_us {
+height: 518px;
+}
+
+.delivery {
+height: 583px;
+margin-left: 30px;
+}
+
+.about_us_img,.delivery_img {
+  width: 78px;
+height: 78px;
+left: 420px;
+top: 2335px;
+
+/* ваы */
+
+background: linear-gradient(90deg, #C90000 0%, #620000 100.03%);
+
+}
+
+.about_us_and_delivery_text {
+  margin-top: 30px;
+  width: 465px;
+height: 320px;
+left: 1035px;
+top: 2443px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 120%;
+/* or 16px */
+
+display: flex;
+flex-direction: column;
+
+color: #181414;
 }

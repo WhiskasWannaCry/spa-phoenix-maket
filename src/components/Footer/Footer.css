@@ -1,0 +1,156 @@
+.footer_container {
+  background: #404040;
+  width: 1200px;
+  height: 226px;
+  padding-left: 360px;
+  padding-right: 360px;
+  display: flex;
+}
+
+.logo_and_rights {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.rights {
+  margin-top: 40px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+/* or 17px */
+
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.52);
+}
+
+.nav_footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  margin-left: 137px;
+}
+
+.nav_footer_btn {
+  cursor: pointer;
+margin-top: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+display: flex;
+align-items: center;
+text-align: center;
+outline: none;
+border: none;
+background: #404040;
+color: #FFFFFF;
+}
+
+.nav_footer_btn:hover {
+  color: #ff5d5d;
+}
+
+.nav_footer_btn:active {
+  color: #FFFFFF;
+}
+
+.our_info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  margin-left: 165px;
+}
+
+.footer_tel {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+display: flex;
+align-items: center;
+
+color: #FAD537;
+}
+
+.footer_mail {
+  margin-top: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+
+.footer_adress {
+  margin-top: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  /* or 17px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  width: 301px;
+}
+
+.footer_callmeback_and_privacy_policy {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_callmeback_btn {
+  cursor: pointer;
+  width: 205px;
+  height: 43px;
+  background: #FFFFFF;
+border-radius: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 120%;
+margin-top: 31px;
+color: #C60101;
+border: none;
+}
+
+.footer_callmeback_btn:hover {
+  background: #dfdfdf;
+}
+
+.privacy_policy {
+  cursor: pointer;
+  margin-top: 46px;
+  background-color: #404040;
+  border: none;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+width: 95px;
+color: #FFFFFF;
+}

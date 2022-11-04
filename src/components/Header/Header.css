@@ -1,5 +1,5 @@
 .header_container {
-  width: 100%;
+  width: 1200px;
   height: 83px;
   padding-left: 360px;
   padding-right: 360px;
@@ -19,7 +19,7 @@
 }
 
 .header_nav_btn {
-
+  cursor: pointer;
   border: none;
   background-color: white;
   font-family: 'Poppins';
@@ -31,12 +31,21 @@
   color: #181414;
 }
 
+.header_nav_btn:hover {
+  color: #ff5d5d;
+}
+
+.header_nav_btn:active {
+  color: #181414;
+}
+
 .header_callback {
+  cursor: pointer;
   width: 141px;
   height: 43px;
   background: #C60101;
   border-radius: 10px;
-  border-color: #C60101;
+  border:none;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -44,4 +53,12 @@
   line-height: 120%;
   margin-left: 212px;
   color: #FFFFFF;
+}
+
+.header_callback:hover {
+  background: #a70000;
+}
+
+.header_callback:active {
+  background: #770000;
 }
