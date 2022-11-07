@@ -17,7 +17,7 @@ import deliveryImg from '../../../images/icons/delivery.jpg'
 import Footer from "../../Footer/Footer";
 
 
-const MainBody = () => {
+const MainBody = ({openModal}) => {
   return (
     <div className="main_body_container">
       <div className="text_for_main_image">
@@ -28,7 +28,7 @@ const MainBody = () => {
           A brief description of the essence of the offer, 
           prompting its content to click on the button below
         </span>
-        <button className="body_image_callback_btn">Call me back</button>
+        <button className="body_image_callback_btn" onClick={() => openModal()}>Call me back</button>
       </div>
       <img className="main_image" src={mainImg}></img>
       <h2>Our products</h2>
@@ -90,7 +90,7 @@ const MainBody = () => {
             </div>
           </div>
           <div className="reason">
-            <img className="reason_img" src={forestryImg}></img>
+            <img className="reason_img" src={supportImg}></img>
             <div className="reason_text">
               <span className="reason_primary_text">
                 Multilingual Client Support
@@ -101,7 +101,7 @@ const MainBody = () => {
             </div>
           </div>
           <div className="reason">
-            <img className="reason_img" src={forestryImg}></img>
+            <img className="reason_img" src={clientImg}></img>
             <div className="reason_text">
               <span className="reason_primary_text">
               Client-centric B2B Approach
@@ -112,7 +112,7 @@ const MainBody = () => {
             </div>
           </div>
           <div className="reason">
-            <img className="reason_img" src={forestryImg}></img>
+            <img className="reason_img" src={woodImg}></img>
             <div className="reason_text">
               <span className="reason_primary_text">
               Certified Wood Bioenergy
@@ -123,7 +123,7 @@ const MainBody = () => {
             </div>
           </div>
           <div className="reason">
-            <img className="reason_img" src={forestryImg}></img>
+            <img className="reason_img" src={nineYearsImg}></img>
             <div className="reason_text">
               <span className="reason_primary_text">
               9 years on the market
@@ -135,7 +135,7 @@ const MainBody = () => {
             </div>
           </div>
           <div className="reason">
-            <img className="reason_img" src={forestryImg}></img>
+            <img className="reason_img" src={customersImg}></img>
             <div className="reason_text">
               <span className="reason_primary_text">
               1,587 happy customers
@@ -181,7 +181,7 @@ const MainBody = () => {
           <hr></hr>
         </div>
       </div>
-      <Footer></Footer>
+
     </div>
   )
 }

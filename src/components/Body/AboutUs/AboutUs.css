@@ -1,0 +1,29 @@
+.about_container {
+  padding-left: 360px;
+  padding-right: 360px;
+  padding-top: 43px;
+  width: 1200px;
+}
+
+.img_and_description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.img_for_desk {
+  width: 427px;
+}
+
+.about_p {
+  width: 657px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 145%;
+
+color: #181414;
+
+}

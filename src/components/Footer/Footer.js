@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css';
 
-const Footer = () => {
+const Footer = ({body,setBody,openModal}) => {
   return (
     <div className="footer_container">
       <div className="logo_and_rights">
@@ -12,11 +12,11 @@ const Footer = () => {
         </span>
       </div>
       <nav className="nav_footer">
-        <button className="nav_footer_btn">Main</button>
-        <button className="nav_footer_btn">Product</button>
-        <button className="nav_footer_btn">About us</button>
-        <button className="nav_footer_btn">Contact</button>
-        <button className="nav_footer_btn">Certificates</button>
+        <button className="nav_footer_btn" onClick={() => setBody('main')}>Main</button>
+        <button className="nav_footer_btn" onClick={() => setBody('product')}>Product</button>
+        <button className="nav_footer_btn" onClick={() => setBody('about')}>About us</button>
+        <button className="nav_footer_btn" onClick={() => setBody('contact')}>Contact</button>
+        <button className="nav_footer_btn" onClick={() => setBody('certificates')}>Certificates</button>
       </nav>
       <div className="our_info">
         <a href="tel:+999999999999" className="footer_tel">+999999999999</a>
@@ -25,7 +25,7 @@ const Footer = () => {
         </span>
       </div>
       <div className="footer_callmeback_and_privacy_policy">
-        <button className="footer_callmeback_btn">Call me back</button>
+        <button className="footer_callmeback_btn" onClick={() => openModal()}>Call me back</button>
         <button className="privacy_policy">Privacy Policy</button>
       </div>
     </div>

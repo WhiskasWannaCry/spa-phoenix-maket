@@ -1,0 +1,34 @@
+.certificates_container {
+  padding-top: 43px;
+}
+
+.cert_desk {
+  width: 459px;
+height: 40px;
+left: 360px;
+top: 208px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 145%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+color: #181414;
+}
+
+.certificates {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 49px;
+}
+
+.cert_img {
+  width: 381px;
+height: 544px;
+}

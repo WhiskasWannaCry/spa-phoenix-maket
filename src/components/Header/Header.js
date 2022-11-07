@@ -3,7 +3,7 @@ import "./Header.css"
 import logo from '../../images/logo.jpg'
 import { useState } from "react";
 
-const Header = ({body,setBody}) => {
+const Header = ({body,setBody,openModal}) => {
   return (
     <div className="header_container">
       <div className="header_logo">
@@ -16,7 +16,7 @@ const Header = ({body,setBody}) => {
         <button id="header_contact_btn" className="header_nav_btn" onClick={() => setBody('contact')}>Contact</button>
         <button id="header_certificates_btn" className="header_nav_btn" onClick={() => setBody('certificates')}>Certificates</button>
       </nav>
-      <button className="header_callback">Call me back</button>
+      <button className="header_callback" onClick={() => openModal()}>Call me back</button>
     </div>
   )
 }

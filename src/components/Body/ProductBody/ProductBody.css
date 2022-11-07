@@ -1,9 +1,10 @@
 .product_body_container {
   width: 1920px;
-  height: 200px;
+
   margin-top: 43px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -22,7 +23,7 @@ line-height: 120%;
 color: #A8A8A8;
 }
 
-.out_products {
+h1 {
   width: 1200px;
 }
 

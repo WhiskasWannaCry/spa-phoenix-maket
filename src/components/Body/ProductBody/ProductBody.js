@@ -12,7 +12,7 @@ const ProductBody = () => {
   return (
     <div className="product_body_container">
       <span className="product_dir">Main/Product</span>
-      <h1 className="out_products">Our products</h1>
+      <h1>Our products</h1>
       <img className="product_main_img" src={mainImg}></img>
       <div className="pellets_and_briquettes_container">
         <div className="pellets_container">
@@ -155,7 +155,6 @@ const ProductBody = () => {
         </div>
       </div>
       <CallMeBack></CallMeBack>
-      <Footer></Footer>
     </div>
   );
 }
