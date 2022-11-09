@@ -21,6 +21,7 @@ function App() {
     modal.style.display = 'none';
   }
   return (
+    <div className='outer_container'>
     <div className='container'>
       <div id='modal' className='modal_background_container' onClick={clickHandlerForModalExit}>
         <div className='modal_container'>
@@ -53,6 +54,7 @@ function App() {
         setBody={setBody}
         openModal={clickHandlerForModalOpen}>
       </Footer>
+    </div>
     </div>
   )
 }

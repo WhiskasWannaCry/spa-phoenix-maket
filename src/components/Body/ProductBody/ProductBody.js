@@ -18,54 +18,54 @@ const ProductBody = () => {
         <div className="pellets_container">
           <span className="pellets">Pellets</span>
           <div className="product">
-            <div className="product_card">
-              <img className="product_image" src={firstProductImg}></img>
-              <span className="product_name">White 15 kg / big bags</span>
-              <span className="product_description">
+            <div className="pellets_and_briquettes_product_card">
+              <img className="pellets_and_briquettes_product_image" src={firstProductImg}></img>
+              <span className="pellets_and_briquettes_product_name">White 15 kg / big bags</span>
+              <span className="pellets_and_briquettes_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
                 here is a stock for a new text, here is a stock for a new text...
               </span>
-              <span className="product_price">From 300$</span>
-              <button className="product_show_more_btn">More info</button>
+              <span className="pellets_and_briquettes_product_price">From 300$</span>
+              <button className="pellets_and_briquettes_product_show_more_btn">More info</button>
             </div>
-            <div className="product_card">
-              <img className="product_image" src={firstProductImg}></img>
-              <span className="product_name">Dark 15 kg / big begs</span>
-              <span className="product_description">
+            <div className="pellets_and_briquettes_product_card">
+              <img className="pellets_and_briquettes_product_image" src={firstProductImg}></img>
+              <span className="pellets_and_briquettes_product_name">Dark 15 kg / big begs</span>
+              <span className="pellets_and_briquettes_">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
                 here is a stock for a new text, here is a stock for a new text...
               </span>
-              <span className="product_price">From 300$</span>
-              <button className="product_show_more_btn">More info</button>
+              <span className="pellets_and_briquettes_product_price">From 300$</span>
+              <button className="pellets_and_briquettes_product_show_more_btn">More info</button>
             </div>
           </div>
         </div>
         <div className="briquettes_container">
           <span className="briquettes">Briquettes</span>
           <div className="product">
-            <div className="product_card">
-              <img className="product_image" src={secondProductImg}></img>
-              <span className="product_name">Coniferous briquettes</span>
-              <span className="product_description">
+            <div className="pellets_and_briquettes_product_card">
+              <img className="pellets_and_briquettes_product_image" src={secondProductImg}></img>
+              <span className="pellets_and_briquettes_product_name">Coniferous briquettes</span>
+              <span className="pellets_and_briquettes_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
                 here is a stock for a new text, here is a stock for a new text...
               </span>
-              <span className="product_price">From 300$</span>
-              <button className="product_show_more_btn">More info</button>
+              <span className="pellets_and_briquettes_product_price">From 300$</span>
+              <button className="pellets_and_briquettes_product_show_more_btn">More info</button>
             </div>
-            <div className="product_card">
-              <img className="product_image" src={secondProductImg}></img>
-              <span className="product_name">Birch briquettes</span>
-              <span className="product_description">
+            <div className="pellets_and_briquettes_product_card">
+              <img className="pellets_and_briquettes_product_image" src={secondProductImg}></img>
+              <span className="pellets_and_briquettes_product_name">Birch briquettes</span>
+              <span className="pellets_and_briquettes_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
                 here is a stock for a new text, here is a stock for a new text...
               </span>
-              <span className="product_price">From 300$</span>
-              <button className="product_show_more_btn">More info</button>
+              <span className="pellets_and_briquettes_product_price">From 300$</span>
+              <button className="pellets_and_briquettes_product_show_more_btn">More info</button>
             </div>
           </div>
         </div>

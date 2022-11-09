@@ -1,5 +1,13 @@
-#root,html,body {
-  width: 1920px;
+#root,html,body,.outer_container {
+  width: 100%;
+  left:0;
+  right: 0;
+}
+
+.outer_container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
 }
 
 .container {
@@ -7,7 +15,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1920px;
+  width: 1024px;
 }
 
 .modal_background_container {
@@ -123,4 +131,10 @@ border-radius: 10px;
 
 .modal_exit {
   cursor: pointer;
+}
+
+@media screen and(min-width:1024px) {
+  .container {
+    width: 100%;
+  }
 }

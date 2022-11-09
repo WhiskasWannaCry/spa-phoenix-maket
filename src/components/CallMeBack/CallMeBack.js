@@ -4,8 +4,7 @@ import './CallMeBack.css'
 
 const CallMeBack = () => {
   return (
-    <div className="callmeback_container">
-      <img className="callmeback_ship" src={shipImg}></img>
+    <div className="callmeback_container">  
       <div className="callmeback_text_container">
         <span className="callmeback_primary_text">
           We provide bulk industrial-grade 

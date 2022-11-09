@@ -30,7 +30,6 @@ const MainBody = ({openModal}) => {
         </span>
         <button className="body_image_callback_btn" onClick={() => openModal()}>Call me back</button>
       </div>
-      <img className="main_image" src={mainImg}></img>
       <h2>Our products</h2>
       <div className="our_products_container">
         <div className="product_card">
@@ -162,7 +161,7 @@ const MainBody = ({openModal}) => {
             <p>During all this time, we have managed to establish ourselves as a responsible supplier of high-quality wood fuel.</p>
             <p>We have extensive contacts with European carriers, which allows us to help with the search for vehicles at the lowest market prices.</p>
           </span>
-          <hr></hr>
+          <span className="hr1"></span>
         </div>
         <div className="delivery">
           <div className="img_and_primary_text">
@@ -178,7 +177,7 @@ const MainBody = ({openModal}) => {
             <p>For export clients, we search for transport to any EU country by any type of transport: - By car, - By container, - By railway car, - By Ship</p>
             <p>For more than 5 years of work in the export market, we have found optimal routes and transport companies that allow us to offer transport rates much lower than market rates. Declaration and customs clearance</p>
           </span>
-          <hr></hr>
+          <span className="hr2"></span>
         </div>
       </div>
 
