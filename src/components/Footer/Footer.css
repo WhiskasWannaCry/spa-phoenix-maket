@@ -1,16 +1,20 @@
 .footer_container {
   display: flex;
+  justify-content: space-evenly;
   background: #404040;
-  width: 1200px;
+  width: 1024px;
   height: 226px;
-  padding-left: 360px;
-  padding-right: 360px;
+  /* padding-left: 360px;
+  padding-right: 360px; */
+  @media screen and (max-width:1024px) {
+    width: 100%;
+  }
 }
 
 .logo_and_rights {
   display: flex;
   flex-direction: column;
-  width: 240px;
+  width: 140px;
 }
 
 .rights {
@@ -18,8 +22,7 @@
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 120%;
+font-size: 10px;
 /* or 17px */
 
 display: flex;
@@ -32,7 +35,7 @@ color: rgba(255, 255, 255, 0.52);
   display: flex;
   flex-direction: column;
   margin-top: 13px;
-  margin-left: 137px;
+  margin-left: 37px;
 }
 
 .nav_footer_btn {
@@ -41,7 +44,7 @@ margin-top: 20px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 12px;
 line-height: 120%;
 display: flex;
 align-items: center;
@@ -64,15 +67,15 @@ color: #FFFFFF;
   display: flex;
   flex-direction: column;
   margin-top: 34px;
-  margin-left: 165px;
+  width: 250px;
+  /* margin-left: 85px; */
 }
 
 .footer_tel {
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
-line-height: 120%;
+font-size: 14px;
 /* identical to box height, or 22px */
 
 display: flex;
@@ -119,7 +122,7 @@ color: #FAD537;
 
 .footer_callmeback_btn {
   cursor: pointer;
-  width: 205px;
+  width: 135px;
   height: 43px;
   background: #FFFFFF;
 border-radius: 10px;

@@ -3,8 +3,7 @@
   justify-content: center;
   position: relative;
   flex-direction: column;
-  width: 70%;
-  height: 320px;
+  height: 420px;
   margin-top: 60px;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -14,14 +13,8 @@
   background-size: 53%;
   background-repeat: no-repeat;
   background-position-x: 100% ;
+  width: 1024px;
 }
-
-/* .callmeback_ship {
-  display: flex;
-  height: 100%;
-  border-radius: 10px;
-  width: 30%;
-} */
 
 .callmeback_text_container {
   display: flex;
@@ -112,6 +105,9 @@ color: #F9F9F9;
   .callmeback_container {
     margin-top: 0;
     height: 300px;
+    width: 100%;
+    margin-top: 0;
+    background-size: 33%;
   }
   .callmeback_secondary_text {
     margin-top: 0;

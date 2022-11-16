@@ -1,20 +1,21 @@
 .contact_container {
   display: flex;
   flex-direction: column;
-  width: 1240px;
+  width: 100%;
   padding-top: 43px;
 }
 
 .table_and_loc {
   display: flex;
   justify-content: space-between;
+  height: 600px;
 }
 
 .for_table {
   background-color: white;
   padding: 22px;
-  width: 585px;
-  height: 656px;
+  width: 45%;
+  height: 562px;
   border-radius: 10px;
 }
 
@@ -29,6 +30,7 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-size: 12px;
 }
 
 tr:nth-child(even) {
@@ -36,8 +38,8 @@ tr:nth-child(even) {
 }
 
 .company_loc {
-  width: 585px;
-height: 696px;
+  width: 46%;
+  height: 100%;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 10px;
 }

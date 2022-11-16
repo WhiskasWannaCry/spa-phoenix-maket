@@ -32,7 +32,7 @@ const ProductBody = () => {
             <div className="pellets_and_briquettes_product_card">
               <img className="pellets_and_briquettes_product_image" src={firstProductImg}></img>
               <span className="pellets_and_briquettes_product_name">Dark 15 kg / big begs</span>
-              <span className="pellets_and_briquettes_">
+              <span className="pellets_and_briquettes_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
                 here is a stock for a new text, here is a stock for a new text...

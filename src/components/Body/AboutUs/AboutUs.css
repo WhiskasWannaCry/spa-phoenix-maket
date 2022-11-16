@@ -1,8 +1,6 @@
 .about_container {
-  padding-left: 360px;
-  padding-right: 360px;
   padding-top: 43px;
-  width: 1200px;
+  width: 100%;
 }
 
 .img_and_description {
@@ -11,12 +9,16 @@
   justify-content: space-between;
 }
 
+.header_and_desk {
+  width: 50%;
+}
+
 .img_for_desk {
   width: 427px;
 }
 
 .about_p {
-  width: 657px;
+  /* width: 657px; */
 
 font-family: 'Poppins';
 font-style: normal;

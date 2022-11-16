@@ -1,5 +1,5 @@
 .header_container {
-  width: 100%;
+  width: 1024px;
   height: 60px;
  /* padding-left: 360px;
   padding-right: 360px;  */
@@ -12,6 +12,7 @@
   background-color: rgb(255, 255, 255);
   @media screen and (max-width:1024px) {
     height:40px;
+    width:100%;
   }
 }
 

@@ -22,6 +22,13 @@ function App() {
   }
   return (
     <div className='outer_container'>
+      <div className='header_outer_container'>
+      <Header 
+        body={body} 
+        setBody={setBody} 
+        openModal={clickHandlerForModalOpen}>
+      </Header>
+      </div>
     <div className='container'>
       <div id='modal' className='modal_background_container' onClick={clickHandlerForModalExit}>
         <div className='modal_container'>
@@ -39,16 +46,14 @@ function App() {
           </div>
         </div>
       </div>
-      <Header 
-        body={body} 
-        setBody={setBody} 
-        openModal={clickHandlerForModalOpen}>
-      </Header>
+ 
       {body === 'main' ? <MainBody openModal={clickHandlerForModalOpen}></MainBody> : null}
       {body === 'product' ? <ProductBody></ProductBody> : null}
       {body === 'about' ? <AboutUs></AboutUs> : null}
       {body === 'contact' ? <Contact></Contact> : null}
       {body === 'certificates' ? <Certificates></Certificates> : null}
+    </div>
+    <div className='footer_outer_container'>
       <Footer 
         body={body} 
         setBody={setBody}
