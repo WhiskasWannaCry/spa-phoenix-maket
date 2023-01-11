@@ -6,7 +6,7 @@ import CallMeBack from "../../CallMeBack/CallMeBack";
 const Contact = () => {
   return (
     <div className="contact_container">
-      <span className="product_dir">Main / About us</span>
+      <span className="product_dir">Main / Contact</span>
       <h1>Contact</h1>
       <div className="table_and_loc">
         <div className="for_table">

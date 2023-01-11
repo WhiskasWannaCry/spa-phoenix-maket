@@ -10,9 +10,10 @@
   border-radius: 10px;
   margin-bottom: 63px;
   background-image: url('../../images/ship.jpg');
-  background-size: 53%;
+  background-size: 45%;
   background-repeat: no-repeat;
   background-position-x: 100% ;
+  background-position-y: 100%;
   width: 1024px;
 }
 
@@ -23,12 +24,12 @@
 }
 
 .callmeback_primary_text {
-  width: 80%;
-  height: 11vh;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
+  width: 60%;
+  /* height: 11vh; */
+  /* font-family: 'Poppins';
+  font-style: normal; */
+  font-weight: 800;
+  font-size: 35px;
   line-height: 120%;
   color: #181414;
   @media screen and (max-width:1024px) {
@@ -38,7 +39,7 @@
 }
 
 .callmeback_secondary_text {
-  width: 60%;
+  width: 40%;
   height: 38px;
   font-family: 'Poppins';
   font-style: normal;
@@ -53,7 +54,7 @@
 
 .callmeback_inputs_and_button_container {
   display: flex;
-  width: 50%;
+  width: 60%;
   margin-left: 50px;
   margin-top: 50px;
   justify-content: space-between;
@@ -61,14 +62,14 @@
 
 .callmeback_input_user_name_and_tel {
   width: 28%;
-height: 25px;
+height: 45px;
 background: #F9F9F9;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 10px;
-font-family: 'Poppins';
-font-style: normal;
+/* font-family: 'Poppins';
+font-style: normal; */
 font-weight: 400;
-font-size: 10px;
+font-size: 13px;
 /* identical to box height, or 17px */
 
 display: flex;
@@ -81,13 +82,13 @@ padding-left: 10px;
 .callmeback_button {
   cursor: pointer;
   width: 30%;
-height: 30px;
+height: 45px;
 background: #C60101;
 border-radius: 10px;
-font-family: 'Poppins';
-font-style: normal;
+/* font-family: 'Poppins';
+font-style: normal; */
 font-weight: 600;
-font-size: 10px;
+font-size: 13px;
 border: none;
 
 color: #F9F9F9;
@@ -118,5 +119,20 @@ color: #F9F9F9;
   .callmeback_input_user_name_and_tel {
     padding-left: 10px;
     font-size: 8px;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .callmeback_container {
+    background-size: 60%;
+  }
+  .callmeback_primary_text {
+    font-size: 20px;
+    width: 70%;
+    height: 90px;
+  }
+  .callmeback_secondary_text {
+    font-size: 10px;
+    width: 70%;
   }
 }

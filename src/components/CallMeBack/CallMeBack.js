@@ -1,5 +1,4 @@
 import React from "react";
-import shipImg from '../../images/ship.jpg'
 import './CallMeBack.css'
 
 const CallMeBack = () => {

@@ -72,87 +72,87 @@ const ProductBody = () => {
       </div>
       <h2 className="boards">Boards</h2>
       <div className="boards_container">
-        <div className="top_boards">
-          <div className="product_card">
-            <img className="product_image" src={thirdProductImg}></img>
-            <span className="product_name">Conifer </span>
-            <span className="product_description">
+
+          <div className="top_boards_product_card">
+            <img className="top_boards_product_image" src={thirdProductImg}></img>
+            <span className="top_boards_product_name">Conifer </span>
+            <span className="top_boards_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
               here is a stock for a new text, here is a stock for a new text...
             </span>
-            <span className="product_price">From 300$</span>
-            <button className="product_show_more_btn">More info</button>
+            <span className="top_boards_product_price">From 300$</span>
+            <button className="top_boards_product_show_more_btn">More info</button>
           </div>
-          <div className="product_card">
-            <img className="product_image" src={thirdProductImg}></img>
-            <span className="product_name">Larch</span>
-            <span className="product_description">
+          <div className="top_boards_product_card">
+            <img className="top_boards_product_image" src={thirdProductImg}></img>
+            <span className="top_boards_product_name">Larch</span>
+            <span className="top_boards_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
               here is a stock for a new text, here is a stock for a new text...
             </span>
-            <span className="product_price">From 300$</span>
-            <button className="product_show_more_btn">More info</button>
+            <span className="top_boards_product_price">From 300$</span>
+            <button className="top_boards_product_show_more_btn">More info</button>
           </div>
-          <div className="product_card">
-            <img className="product_image" src={thirdProductImg}></img>
-            <span className="product_name">Boarding products</span>
-            <span className="product_description">
+          <div className="top_boards_product_card">
+            <img className="top_boards_product_image" src={thirdProductImg}></img>
+            <span className="top_boards_product_name">Boarding products</span>
+            <span className="top_boards_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
               here is a stock for a new text, here is a stock for a new text...
             </span>
-            <span className="product_price">From 300$</span>
-            <button className="product_show_more_btn">More info</button>
+            <span className="top_boards_product_price">From 300$</span>
+            <button className="top_boards_product_show_more_btn">More info</button>
           </div>
-          <div className="product_card">
-            <img className="product_image" src={thirdProductImg}></img>
-            <span className="product_name">Planken</span>
-            <span className="product_description">
+          <div className="top_boards_product_card">
+            <img className="top_boards_product_image" src={thirdProductImg}></img>
+            <span className="top_boards_product_name">Planken</span>
+            <span className="top_boards_product_description">
               A brief description of the product,
               here is a stock for a new text, here is a stock for a new text,
               here is a stock for a new text, here is a stock for a new text...
             </span>
-            <span className="product_price">From 300$</span>
-            <button className="product_show_more_btn">More info</button>
+            <span className="top_boards_product_price">From 300$</span>
+            <button className="top_boards_product_show_more_btn">More info</button>
           </div>
-        </div>
-        <div className="bottom_boards">
-        <div className="product_card">
-          <img className="product_image" src={thirdProductImg}></img>
-          <span className="product_name">Timber</span>
-          <span className="product_description">
+
+
+        <div className="top_boards_product_card">
+          <img className="top_boards_product_image" src={thirdProductImg}></img>
+          <span className="top_boards_product_name">Timber</span>
+          <span className="top_boards_product_description">
             A brief description of the product,
             here is a stock for a new text, here is a stock for a new text,
             here is a stock for a new text, here is a stock for a new text...
           </span>
-          <span className="product_price">From 300$</span>
-          <button className="product_show_more_btn">More info</button>
+          <span className="top_boards_product_price">From 300$</span>
+          <button className="top_boards_product_show_more_btn">More info</button>
         </div>
-        <div className="product_card">
-          <img className="product_image" src={thirdProductImg}></img>
-          <span className="product_name">Linings </span>
-          <span className="product_description">
+        <div className="top_boards_product_card">
+          <img className="top_boards_product_image" src={thirdProductImg}></img>
+          <span className="top_boards_product_name">Linings </span>
+          <span className="top_boards_product_description">
             A brief description of the product,
             here is a stock for a new text, here is a stock for a new text,
             here is a stock for a new text, here is a stock for a new text...
           </span>
-          <span className="product_price">From 300$</span>
-          <button className="product_show_more_btn">More info</button>
+          <span className="top_boards_product_price">From 300$</span>
+          <button className="top_boards_product_show_more_btn">More info</button>
         </div>
-        <div className="product_card">
-          <img className="product_image" src={thirdProductImg}></img>
-          <span className="product_name">OSB board</span>
-          <span className="product_description">
+        <div className="top_boards_product_card">
+          <img className="top_boards_product_image" src={thirdProductImg}></img>
+          <span className="top_boards_product_name">OSB board</span>
+          <span className="top_boards_product_description">
             A brief description of the product,
             here is a stock for a new text, here is a stock for a new text,
             here is a stock for a new text, here is a stock for a new text...
           </span>
-          <span className="product_price">From 300$</span>
-          <button className="product_show_more_btn">More info</button>
+          <span className="top_boards_product_price">From 300$</span>
+          <button className="top_boards_product_show_more_btn">More info</button>
         </div>
-        </div>
+
       </div>
       <CallMeBack></CallMeBack>
     </div>
